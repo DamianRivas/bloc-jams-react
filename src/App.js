@@ -9,13 +9,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <nav>
-            <Link to='/'>Landing</Link>
-            <Link to='/library'>Library</Link>
+        {/* <div className="container"> */}
+          <nav className="navbar">
+            <Link to='/'><img src="/assets/images/jams-logo-cropped.png" alt="logo" height="50" /></Link>
+            <div className="libraryLink"><Link to='/library'>Library</Link></div>
           </nav>
-          <h1>Bloc Jams</h1>
-        </header>
+        {/* </div> */}
         <main>
           <Route exact path="/" component={Landing} />
           <Route path="/library" component={Library} />
