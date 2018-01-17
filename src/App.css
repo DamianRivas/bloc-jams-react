@@ -40,10 +40,3 @@ a {
 .libraryLink {
   margin-left: auto;
 }
-
-.player-bar {
-  bottom: 0;
-  height: 200px;
-  position: fixed;
-  width: 100%;
-}
