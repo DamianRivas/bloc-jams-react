@@ -19,8 +19,8 @@ class Library extends Component {
                 <img src={album.albumCover} alt={album.title} className="album-cover" />
               </Link>
               <div className="album-name">
-                <div><Link to={`/album/${album.slug}`}><span className="album-title">{album.title}</span></Link></div>
-                <div><Link to={`/album/${album.slug}`}><span className="album-artist">By: {album.artist}</span></Link></div>
+                <div className="album-title"><Link to={`/album/${album.slug}`}><span>{album.title}</span></Link></div>
+                <div className="album-artist"><Link to={`/album/${album.slug}`}><span>By: {album.artist}</span></Link></div>
                 <div><Link to={`/album/${album.slug}`}><span>{album.songs.length} songs</span></Link></div>
               </div>
             </div>

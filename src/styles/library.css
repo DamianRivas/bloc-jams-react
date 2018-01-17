@@ -17,7 +17,8 @@
 }
 
 .album-artist {
-  font-size: 20px;
+  font-size: 1.4rem;
+  margin-top: .5rem;
 }
 
 .album-info {
