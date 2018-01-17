@@ -1,7 +1,7 @@
 .library-container {
   text-align: left;
   max-width: 700px;
-  margin: 0 auto;
+  margin: 4rem auto 0;
 }
 
 .album-title {
