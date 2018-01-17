@@ -1,0 +1,25 @@
+.library-container {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.album-title {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: .15em;
+}
+
+.album-artist {
+  font-size: 20px;
+}
+
+.album-info {
+  position: relative;
+}
+
+.album-name {
+  position: absolute;
+  left: calc(450px + 20px);
+  bottom: 250px;
+}
