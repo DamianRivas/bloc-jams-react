@@ -70,6 +70,7 @@ tr button {
   background: none;
   color: #fff;
   cursor: pointer;
+  font-size: 100%;
 }
 
 td {
