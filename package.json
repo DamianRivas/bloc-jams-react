@@ -17,5 +17,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/DamianRivas/jams-react"
+  "homepage": "http://damianrivas.com/jams-react/"
 }
